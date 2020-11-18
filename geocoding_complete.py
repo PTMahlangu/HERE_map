@@ -3,7 +3,7 @@ from flask import Flask,render_template
 
 URL = "https://geocode.search.hereapi.com/v1/geocode"
 location = input("Enter the location here: ") #taking user input
-api_key = 'D8_ZcCgY-DBTmD5Efzay0nvJpST2-jiDHfYMoXBcoJw' # Acquire from developer.here.com
+api_key = 'XXXXXXXXXXXXXXXXXXXXXXXX' # Acquire from developer.here.com
 PARAMS = {'apikey':api_key,'q':location} 
 
 # sending get request and saving the response as response object 
